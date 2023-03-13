@@ -6,6 +6,9 @@ from typing import List, Optional
 import random
 import sys
 import argparse
+from transformers import set_seed
+
+set_seed(0)
 
 from collections import namedtuple
 try:
